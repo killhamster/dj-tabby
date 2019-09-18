@@ -8,6 +8,26 @@
   }
 }
 
+a:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 #video {
   opacity: 0;
 }
@@ -24,6 +44,7 @@
   text-align: center;
   z-index: 1;
   margin: 10% auto;
+  margin-bottom: 0;
   border: 2px solid black;
 }
 
@@ -71,4 +92,15 @@
   font-size: .8em;
   list-style: none;
   text-align: left;
+}
+
+#social-shortcuts {
+  width: 350px;
+  text-align: center;
+  z-index: 2;
+  margin: 10% auto;
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px;
 }
